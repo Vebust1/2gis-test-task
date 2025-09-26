@@ -8,3 +8,10 @@
 # Запуск всех тестов
 pytest tests/ -v
 
+## Запуск через Docker
+
+# Собрать образ
+docker build -t 2gis-api-tests:01 .
+
+# Запустить тесты
+docker run --rm 2gis-api-tests:01
