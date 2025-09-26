@@ -5,8 +5,6 @@
 2. cd testTask
 3. pip install -r requirements.txt
 
-# Запуск
-
-#Запуск всех тестов
+# Запуск всех тестов
 pytest tests/ -v
 
